@@ -17,8 +17,10 @@ let myserver = myhttp.createServer(
     mytext = "Well hello there...";
    } else {
      mytext = "I don't know you!";
-
    }
+
+   mytext = mytext + "- Please help me... I am trapped in a Node.js server!";
+   
 // creates an http response header, including status code and content type
    myresponse.writeHead( 200, { "Content-Type": "text/plain"} );
 
