@@ -1,7 +1,7 @@
 // this is a single line javascipt
 
 // define a variable and the http  package 
-let myhttp = require("http");
+let thehttp = require('http');
 
 //create server takes some arguments 
 //function (block of code that will be runed whenever the server recives http requests)
